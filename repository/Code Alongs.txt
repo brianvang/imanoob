@@ -1,0 +1,59 @@
+//Code along: Variables
+var n = 314;
+var s = "JavaScript";
+var b = true;
+var x = null
+var u = undefined
+
+//Code Along: If statement
+var n = 25;
+var results = 0;
+
+if (n % 2 === 0) {
+	results = results + 10;
+	console.log(results);
+} else {
+	results = results - n;
+	console.log(results);
+}
+
+//For loop code along
+var sum = 0
+
+for (var n = 25; n > 0; n--) 
+	console.log(sum + n);
+     }
+}
+
+//Code Along: Rolling Dice
+rollDice() Function
+function rollDice() {
+	return Math.floor(Math.random() * 6) + 1;
+}
+
+for (var i = 0; i < 100; i++) {
+	console.log(rollDice());
+}
+
+//Code Along: Defining Functions
+function addTwoNumbers(firstNumber, secondNumber){
+	var total = firstNumber + secondNumber
+	console.log(total)
+	
+}
+
+//Code along: Arrays
+/* Find max */
+
+var fruits = ['kiwi', 'rambutan', 'mango', 'tomato'];
+fruits.length;
+
+/* Sum of range */
+
+var fruits = ['kiwi', 'rambutan', 'mango', 'tomato'];
+var sumRange = 0
+
+for (var i = 0; i < fruits.length; i++) {
+	sumRange = sumRange + i
+
+
